@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daili.iml" filepath="$PROJECT_DIR$/.idea/modules/daili.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daili_main.iml" filepath="$PROJECT_DIR$/.idea/modules/daili_main.iml" group="daili" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daili_test.iml" filepath="$PROJECT_DIR$/.idea/modules/daili_test.iml" group="daili" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
     </modules>
   </component>
