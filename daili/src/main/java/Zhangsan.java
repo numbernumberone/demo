@@ -35,7 +35,7 @@ public class Zhangsan implements  Person{
     @Override
     public void findLove() {
         System.out.println("我叫王锐" +this.name+">"+"性别"+this.sex+"hello");
-        System.out.println("我叫王锐");
+        System.out.println("");
         System.out.println("我叫王锐");
         System.out.println("我叫王锐");
     }

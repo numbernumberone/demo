@@ -1,8 +1,9 @@
-import java.lang.reflect.InvocationHandler;
+package jdk;
+
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-public class Meipo implements InvocationHandler {
+public class GPMeipo implements GPInvocationHandler {
 
     private Person target;
 
@@ -10,15 +11,12 @@ public class Meipo implements InvocationHandler {
     public Object getInstance(Person target) throws Exception{
         this.target = target;
         Class clazz = target.getClass();
-        return Proxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);
+        return GPPorxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);
 
 
     }
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("你的性别" + this.target.getSex());
-        this.target.findLove();
-        System.out.println("如果合适的话就准备办事吧");
         return null;
     }
 }
