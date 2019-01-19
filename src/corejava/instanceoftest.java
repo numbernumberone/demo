@@ -10,11 +10,6 @@ class B implements A{
 class C extends B{
 
 }
-
-
-
-
-
 class instanceoftest {
     public static void main(String[] args) {
         A a=null;
@@ -26,9 +21,6 @@ class instanceoftest {
         System.out.println("a instanceof A " + res);
         res = d instanceof B;
         System.out.println("b instanceof B " + res);
-
-
-
     }
 
 }
