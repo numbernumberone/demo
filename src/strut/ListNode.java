@@ -4,7 +4,7 @@ package strut;
  * 单链表结构
  *
  *
- *
+ *测试一下啦
  * */
 public class ListNode {
     private int data;
