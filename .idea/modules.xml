@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/daili_test.iml" filepath="$PROJECT_DIR$/.idea/modules/daili_test.iml" group="daili" />
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_scala/test_scala.iml" filepath="$PROJECT_DIR$/test_scala/test_scala.iml" />
     </modules>
   </component>
 </project>
