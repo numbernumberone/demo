@@ -1,16 +1,16 @@
 object HelloWorld {
 
   def main(args: Array[String]) {
-    //val greetStrings = new Array[String](3)
-    val greetStrings: Array[String] = new Array[String](3)
-    greetStrings(0) = "hello"
-    greetStrings(1) = ","
-    greetStrings(2) = "world!\n"
 
-    for(i <- 0 to 2)
-      print(greetStrings(i))
 
-    println("Hello World! 我是王锐");
+      "https://restapi.amap.com/v3/direction/driving?origin=116.45925,39.910031&destination=116.587922,40.081577&output=xml&key=<用户的key>"
+
+
+
+
+
+
+
+
   }
-
 }
