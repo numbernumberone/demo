@@ -5,9 +5,6 @@ import scala.collection.mutable
 //暴力方法求解
 
 class lengthOfLongestSubstring {
-
-
-
   def lengthOfLongestSubstring1(s:String) : Int = {
     val n = s.length
     var ans = 0
@@ -28,8 +25,11 @@ class lengthOfLongestSubstring {
     }
     return true
   }
-
 }
+
+
+
+
 
 object lengthOfLongestSubstring {
 
