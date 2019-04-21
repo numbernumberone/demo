@@ -25,6 +25,30 @@ class lengthOfLongestSubstring {
     }
     return true
   }
+
+
+  def lengthOfLongestSubstring2(s:String) : Int = {
+    val n = s.length
+    val set = mutable.HashSet[Character]()
+    var ans = 0
+    var i = 0
+    var j = 0
+    while (i < n && j < n){
+      if (!set.contains(s.charAt(j))){
+        j+=1
+        set.add(s.charAt(j))
+        ans = Math.max(ans, j - i)
+      }else {
+        i+=1
+        set.remove(s.charAt(i))
+        }
+      }
+  return ans
+
+  }
+
+
+
 }
 
 
@@ -35,7 +59,7 @@ object lengthOfLongestSubstring {
 
   def main(args: Array[String]): Unit = {
     val acc = new lengthOfLongestSubstring
-    val str = acc.lengthOfLongestSubstring1("assdfaa")
+    val str = acc.lengthOfLongestSubstring2("assdfaa")
     println(str)
 
   }
